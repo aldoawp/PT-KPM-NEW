@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/logo-kpm-light%201.png" style="width:16em"></p>
+
 # 🚬 PT Karyamega Putra Mandiri POS System
 
 PT Karyamega Putra Mandiri is a company engaged in cigarette production located in Pakisaji, Malang. The company has many salespeople and regional managers in various regions. However, sales data input is still done manually using Excel by a single admin and WhatsApp for communication. This often leads to delays in reporting due to incomplete records. To address this issue, we present a solution in the form of web-based POS software.
@@ -100,6 +102,6 @@ php artisan serve
 ## 📨 Contact
 For any inquiries or feedback, please contact us at hello@aldocodes.tech
 
-> Github [@aldoawp](https://github.com/aldoawp/) &nbsp;&middot;&nbsp;
-> Instagram [@aldoawp](https://instagram.com/aldocodes/) &nbsp;&middot;&nbsp;
-> LinkedIn [@aldoawp](https://linkedin.com/in/aldo-arista/)
+> ![Github](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--github-dark.svg) [@aldoawp](https://github.com/aldoawp/) &nbsp;&middot;&nbsp;
+> ![Instagram](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--instagram.svg) [@aldoawp](https://instagram.com/aldocodes/) &nbsp;&middot;&nbsp;
+> ![LinkedIn](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--linkedin.svg) [@aldoawp](https://linkedin.com/in/aldo-arista/)
