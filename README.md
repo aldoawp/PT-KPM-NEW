@@ -1,120 +1,107 @@
-## ✨ Inventory Management System
+# PT Karyamega Putra Mandiri POS System
 
-Inventory Management System with Laravel 10 and MySql.
+PT Karyamega Putra Mandiri is a company engaged in cigarette production located in Pakisaji, Malang. The company has many salespeople and regional managers in various regions. However, sales data input is still done manually using Excel by a single admin and WhatsApp for communication. This often leads to delays in reporting due to incomplete records. To address this issue, we present a solution in the form of web-based POS software.
 
 ![Dashboard](https://user-images.githubusercontent.com/71541409/236858603-89e4be74-0a8b-4b4b-98b0-24e66ec5602d.png)
 
-## 💀 Design Database
-![Diagram Class](https://github.com/fajarghifar/inventory-management-system/assets/71541409/0c7d4163-96f5-4724-8741-4615e52ecf98)
+## Features
 
-## 😎 Features
-- POS
-- Orders
-  - Pending Orders
-  - Complete Orders
-  - Pending Due
-- Purchases
-  - All Purchases
-  - Approval Purchases
-  - Purchase Report
-- Products
-- Customers
-- Suppliers
+The POS system includes several key features:
+1. **Authentication and Multi-role Authorization**: Separate access for owners, managers, and staff.
+2. **Resource Management**: Inventory, customer, and employee management.
+3. **POS System**: Records sales transactions, restocks, and returns.
+4. **Reporting**: Generate financial, sales, restock, return, and inventory reports on a daily, weekly, or monthly basis.
+5. **Dashboard**: Charts for viewing important information.
 
-## 🚀 How to Use
+## Development and Deployment
 
-1. Clone Repository
+- **Development Framework**: Laravel PHP framework.
+- **Front-end Styling**: Tailwind CSS.
+- **Database Management**: Eloquent ORM.
+- **Templating Engine**: Laravel Blade.
+- **Testing**: Blackbox and Whitebox testing methods.
+- **CI/CD Pipeline**: Configured with GitHub Actions.
+- **Hosting**: DigitalOcean.
 
+## Installation Instructions
+
+To set up the application locally, follow these steps:
+
+### Prerequisites
+- PHP 8.1 or higher
+- Composer
+- Node.js and npm
+- MySQL server
+
+### Steps
+
+1. **Clone the repository:**
 ```bash
-git clone https://github.com/fajarghifar/inventory-management-system
+git clone https://github.com/aldoawp/PT-KPM-NEW.git
 ```
 
-2. Go into the repository 
-
+2. **Go into the repository**
 ```bash
-cd inventory-management-system
-```
+cd pt-karyamega-putra-mandiri-pos
+``` 
 
-3. Install Packages 
-
+3. **Install PHP dependencies** 
 ```bash
 composer install
 ```
 
-
-4. Copy `.env` file 
-
+4. **Install JavaScript dependencies:**
 ```bash
-
-cp .env.example .env
-
+npm install
 ```
 
-5. Generate app key 
+5. **Setup the `.env` file**
+```bash
+cp .env.example .env
+```
 
+6. **Generate the app key:**
 ```bash
 php artisan key:generate
 ```
 
-6. Setting up your database credentials in your `.env` file.
-7. Seed Database: 
-
+7. **Setting up your database credentials in your `.env` file.**
 ```bash
-
-php artisan migrate:fresh --seed
-
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=[YOUR_DB]
+DB_USERNAME=[YOUR_DB_USERNAME]
+DB_PASSWORD=[YOUR_DB_PASSWORD]
 ```
-8. Create Storage Link
 
+8. **Run migrations and seed the database:** 
+```bash
+php artisan migrate:fresh --seed
+```
+
+9. **Create Storage Link**
 ```bash
 php artisan storage:link
 ```
 
-9. Install NPM dependencies 
-
+10. **Build assets**
 ```bash
-
-npm install && npm run dev
-
+npm run dev
 ```
-10. Run 
 
+11. **Start the development server:** 
 ```bash
-
 php artisan serve
-
-```
-11. Try login with email: 
-
-```bash
-
-admin@gmail.com
-
-```
-and password: 
-
-```bash
-
-password
-
 ```
 
-## 🚀 Config
+12. **Login in with these credentials:**
+- email: *admin@gmail.com*
+- password: *password*
 
-1. **Config Chart**
+## Contact
+For any inquiries or feedback, please contact us at hello@aldocodes.tech
 
-    Open file `./config/cart.php`. You can set a tax, format number, etc.
-    > For More details, visit this link [hardevine/shoppingcart](https://packagist.org/packages/hardevine/shoppingcart).
-
-## 📝 Contributing
-
-If you have any ideas to make it more interesting, please send a PR or create an issue for a feature request.
-
-### if you wana contribute to this project and add some features into it, here are some possable features you can add into this project..;)
-[https://chat.openai.com/share/48776dd2-3b91-4b93-b7b5-8a728d39df4f](https://chat.openai.com/share/48776dd2-3b91-4b93-b7b5-8a728d39df4f)
-# 🤝 License
-
-### [MIT](LICENSE)
-
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar)
+> Github [@aldoawp](https://github.com/aldoawp/) &nbsp;&middot;&nbsp;
+> Instagram [@aldoawp](https://instagram.com/aldocodes/) &nbsp;&middot;&nbsp;
+> LinkedIn [@aldoawp](https://linkedin.com/in/aldo-arista/)
