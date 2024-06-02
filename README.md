@@ -103,5 +103,5 @@ php artisan serve
 For any inquiries or feedback, please contact us at hello@aldocodes.tech
 
 > ![Github](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--github-dark.svg) [@aldoawp](https://github.com/aldoawp/) &nbsp;&middot;&nbsp;
-> ![Instagram](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--instagram.svg) [@aldoawp](https://instagram.com/aldocodes/) &nbsp;&middot;&nbsp;
-> ![LinkedIn](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--linkedin.svg) [@aldoawp](https://linkedin.com/in/aldo-arista/)
+> ![Instagram](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--instagram.svg) [@aldocodes](https://instagram.com/aldocodes/) &nbsp;&middot;&nbsp;
+> ![LinkedIn](https://raw.githubusercontent.com/aldoawp/PT-KPM-NEW/main/public/assets/img/logos/skill-icons--linkedin.svg) [@Aldo Arista](https://linkedin.com/in/aldo-arista/)
