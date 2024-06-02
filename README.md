@@ -1,8 +1,8 @@
-🚬 # PT Karyamega Putra Mandiri POS System
+# 🚬 PT Karyamega Putra Mandiri POS System
 
 PT Karyamega Putra Mandiri is a company engaged in cigarette production located in Pakisaji, Malang. The company has many salespeople and regional managers in various regions. However, sales data input is still done manually using Excel by a single admin and WhatsApp for communication. This often leads to delays in reporting due to incomplete records. To address this issue, we present a solution in the form of web-based POS software.
 
-✨ ## Features
+## ✨ Features
 
 The POS system includes several key features:
 1. **Authentication and Multi-role Authorization**: Separate access for owners, managers, and staff.
@@ -11,7 +11,7 @@ The POS system includes several key features:
 4. **Reporting**: Generate financial, sales, restock, return, and inventory reports on a daily, weekly, or monthly basis.
 5. **Dashboard**: Charts for viewing important information.
 
-🚧 ## Development and Deployment
+## 🚧 Development and Deployment
 
 - **Development Framework**: Laravel PHP framework.
 - **Front-end Styling**: Tailwind CSS.
@@ -21,7 +21,7 @@ The POS system includes several key features:
 - **CI/CD Pipeline**: Configured with GitHub Actions.
 - **Hosting**: DigitalOcean.
 
-📌 ## Installation Instructions
+## 📌 Installation Instructions
 
 To set up the application locally, follow these steps:
 
@@ -97,7 +97,7 @@ php artisan serve
 - email: *admin@gmail.com*
 - password: *password*
 
-📨 ## Contact
+## 📨 Contact
 For any inquiries or feedback, please contact us at hello@aldocodes.tech
 
 > Github [@aldoawp](https://github.com/aldoawp/) &nbsp;&middot;&nbsp;
